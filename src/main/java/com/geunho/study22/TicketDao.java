@@ -71,7 +71,7 @@ public class TicketDao {
 							pstmt.setString(1, dto.getConsumerid());
 							pstmt.setString(2, dto.getAmount());
 
-							return pstmt;ㅋ
+							return pstmt;
 						}
 					});									
 			}
